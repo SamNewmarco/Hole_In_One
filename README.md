@@ -1,2 +1,2 @@
 # Hole_In_One
- Code for the hole in one VTC project
+ Code for the "Hole In One" project at Vermont Technical College
