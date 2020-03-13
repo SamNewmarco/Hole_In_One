@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Hole_In_One/Project_Headers/my_ledboard.c&apos;" deleteContents="false" description="Delete resource &apos;Hole_In_One/Project_Headers/my_ledboard.c&apos;" element1="/Hole_In_One/Project_Headers/my_ledboard.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1584124787605"/>
+</session>
