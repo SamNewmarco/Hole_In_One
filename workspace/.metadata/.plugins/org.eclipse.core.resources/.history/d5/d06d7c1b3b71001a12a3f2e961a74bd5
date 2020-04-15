@@ -1,0 +1,204 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+-include ../makefile.local
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS_QUOTED += \
+"../Project_Headers/arm_cm0.c" \
+"../Project_Headers/mcg.c" \
+"../Project_Headers/my_PWM.c" \
+"../Project_Headers/my_Pixy2.c" \
+"../Project_Headers/my_UART.c" \
+"../Project_Headers/my_adc.c" \
+"../Project_Headers/my_gpio.c" \
+"../Project_Headers/my_i2c.c" \
+"../Project_Headers/my_keypad.c" \
+"../Project_Headers/my_ssd1306.c" \
+"../Project_Headers/my_sys_ticks.c" \
+"../Project_Headers/my_timers.c" \
+
+C_SRCS += \
+../Project_Headers/arm_cm0.c \
+../Project_Headers/mcg.c \
+../Project_Headers/my_PWM.c \
+../Project_Headers/my_Pixy2.c \
+../Project_Headers/my_UART.c \
+../Project_Headers/my_adc.c \
+../Project_Headers/my_gpio.c \
+../Project_Headers/my_i2c.c \
+../Project_Headers/my_keypad.c \
+../Project_Headers/my_ssd1306.c \
+../Project_Headers/my_sys_ticks.c \
+../Project_Headers/my_timers.c \
+
+OBJS += \
+./Project_Headers/arm_cm0.o \
+./Project_Headers/mcg.o \
+./Project_Headers/my_PWM.o \
+./Project_Headers/my_Pixy2.o \
+./Project_Headers/my_UART.o \
+./Project_Headers/my_adc.o \
+./Project_Headers/my_gpio.o \
+./Project_Headers/my_i2c.o \
+./Project_Headers/my_keypad.o \
+./Project_Headers/my_ssd1306.o \
+./Project_Headers/my_sys_ticks.o \
+./Project_Headers/my_timers.o \
+
+C_DEPS += \
+./Project_Headers/arm_cm0.d \
+./Project_Headers/mcg.d \
+./Project_Headers/my_PWM.d \
+./Project_Headers/my_Pixy2.d \
+./Project_Headers/my_UART.d \
+./Project_Headers/my_adc.d \
+./Project_Headers/my_gpio.d \
+./Project_Headers/my_i2c.d \
+./Project_Headers/my_keypad.d \
+./Project_Headers/my_ssd1306.d \
+./Project_Headers/my_sys_ticks.d \
+./Project_Headers/my_timers.d \
+
+OBJS_QUOTED += \
+"./Project_Headers/arm_cm0.o" \
+"./Project_Headers/mcg.o" \
+"./Project_Headers/my_PWM.o" \
+"./Project_Headers/my_Pixy2.o" \
+"./Project_Headers/my_UART.o" \
+"./Project_Headers/my_adc.o" \
+"./Project_Headers/my_gpio.o" \
+"./Project_Headers/my_i2c.o" \
+"./Project_Headers/my_keypad.o" \
+"./Project_Headers/my_ssd1306.o" \
+"./Project_Headers/my_sys_ticks.o" \
+"./Project_Headers/my_timers.o" \
+
+C_DEPS_QUOTED += \
+"./Project_Headers/arm_cm0.d" \
+"./Project_Headers/mcg.d" \
+"./Project_Headers/my_PWM.d" \
+"./Project_Headers/my_Pixy2.d" \
+"./Project_Headers/my_UART.d" \
+"./Project_Headers/my_adc.d" \
+"./Project_Headers/my_gpio.d" \
+"./Project_Headers/my_i2c.d" \
+"./Project_Headers/my_keypad.d" \
+"./Project_Headers/my_ssd1306.d" \
+"./Project_Headers/my_sys_ticks.d" \
+"./Project_Headers/my_timers.d" \
+
+OBJS_OS_FORMAT += \
+./Project_Headers/arm_cm0.o \
+./Project_Headers/mcg.o \
+./Project_Headers/my_PWM.o \
+./Project_Headers/my_Pixy2.o \
+./Project_Headers/my_UART.o \
+./Project_Headers/my_adc.o \
+./Project_Headers/my_gpio.o \
+./Project_Headers/my_i2c.o \
+./Project_Headers/my_keypad.o \
+./Project_Headers/my_ssd1306.o \
+./Project_Headers/my_sys_ticks.o \
+./Project_Headers/my_timers.o \
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Project_Headers/arm_cm0.o: ../Project_Headers/arm_cm0.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #5 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/arm_cm0.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/arm_cm0.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/mcg.o: ../Project_Headers/mcg.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #6 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/mcg.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/mcg.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_PWM.o: ../Project_Headers/my_PWM.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #7 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_PWM.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_PWM.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_Pixy2.o: ../Project_Headers/my_Pixy2.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #8 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_Pixy2.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_Pixy2.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_UART.o: ../Project_Headers/my_UART.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #9 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_UART.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_UART.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_adc.o: ../Project_Headers/my_adc.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #10 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_adc.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_adc.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_gpio.o: ../Project_Headers/my_gpio.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #11 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_gpio.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_gpio.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_i2c.o: ../Project_Headers/my_i2c.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #12 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_i2c.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_i2c.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_keypad.o: ../Project_Headers/my_keypad.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #13 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_keypad.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_keypad.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_ssd1306.o: ../Project_Headers/my_ssd1306.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #14 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_ssd1306.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_ssd1306.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_sys_ticks.o: ../Project_Headers/my_sys_ticks.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #15 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_sys_ticks.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_sys_ticks.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Project_Headers/my_timers.o: ../Project_Headers/my_timers.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #16 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Project_Headers/my_timers.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Project_Headers/my_timers.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

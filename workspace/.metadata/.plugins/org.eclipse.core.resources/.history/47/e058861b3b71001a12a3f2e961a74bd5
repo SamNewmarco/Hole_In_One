@@ -28,10 +28,10 @@
 -n
 -specs=ewl_c.specs
 -Xlinker
---undefined=__pformatterFP
+--undefined=__pformatter_
 -Xlinker
---defsym=__pformatter=__pformatterFP
+--defsym=__pformatter=__pformatter_
 -Xlinker
---undefined=__sformatter_FP
+--undefined=__sformatter
 -Xlinker
---defsym=__sformatter=__sformatter_FP
+--defsym=__sformatter=__sformatter

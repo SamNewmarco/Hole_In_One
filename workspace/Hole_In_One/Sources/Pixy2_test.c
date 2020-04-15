@@ -105,7 +105,7 @@ int main(void) {
 	uint32_t t0 = sys_ticks;
 	
 	for(;;){
-		test = get_velocity(2, 77.78);//Length of frame = 48.75 in. Pixels = 316. pixels per foot = 77.78
+		test = get_velocity(1, 77.78);//Length of frame = 48.75 in. Pixels = 316. pixels per foot = 77.78
 		if(test >= 0){
 			x_pos = velocity_points[velocity_index-1].x_pos;
 			y_pos = velocity_points[velocity_index-1].y_pos;
